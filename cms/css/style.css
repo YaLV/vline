@@ -1,0 +1,221 @@
+.removeImage {
+  position:absolute;
+  top: 5px;
+  right: 5px;
+  height:11px;
+  width:11px;
+  z-index:10;
+  display:block;
+  text-decoration:none;
+  color: red;
+  font-weight: bold;
+  background: rgb(255,255,255);
+  font-size: 10px;
+  line-height: 10px;
+  text-align:center;
+  -webkit-box-shadow: 0px 0px 15px rgba(82, 168, 236, 1);
+  -moz-box-shadow:    0px 0px 15px rgba(82, 168, 236, 1);
+  box-shadow:         0px 0px 15px rgba(82, 168, 236, 1);
+  transition: all 200ms ease;     
+}
+
+.removeImage:hover {
+  text-decoration:none;
+  color:red;
+  width: 15px;
+  height: 15px;
+  font-size: 14px;
+  line-height: 14px;
+  top: 3px;
+  right: 3px;
+  transition: all 200ms ease;
+}
+
+.file {
+  width: 100px;
+  height: 120px;
+  text-align:center;
+  vertical-align:middle;
+  border:1px solid #DADADA;
+  margin: 3px;
+  cursor:pointer;
+  overflow:hidden;
+  transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  background: #FAFAFA;
+}
+
+.file:hover {
+  transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  -webkit-box-shadow: 0px 0px 15px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow:    0px 0px 15px rgba(82, 168, 236, 0.6);
+  box-shadow:         0px 0px 15px rgba(82, 168, 236, 0.6);  
+}
+
+.fileUpload {
+  padding: 3px 5px;
+  position:absolute;
+  top: 5px;
+  right: 5px;
+  border: 1px dotted #DEDEDE;
+  cursor:pointer;
+  background: white;
+  display:block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.fileUpload:hover {
+  text-decoration: none;
+  background: rgba(0,0,0,.1);
+}
+
+.actionButtons {
+  position:absolute;
+  right:10px;
+  top: 10px;
+  
+}
+
+hr {
+  margin: 5px 0;
+  border: 0;
+  border-top: 1px solid #AAA;
+  border-bottom: 1px solid #DDD;
+}
+
+.newsItem h4 {
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.newsItem {
+  position:relative;
+  margin: auto;
+  width:90%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  -moz-box-shadow:    0px 0px 5px rgba(0, 0, 0, 1);
+  box-shadow:         0px 0px 5px rgba(0, 0, 0, 1);
+  padding: 10px;  
+  margin-bottom: 10px;
+}
+
+.listContainer {
+  padding: 10px;
+}
+
+.cursor {
+  cursor:pointer;
+}
+
+li.dropdown .dropdown-menu.right-menu {
+  width: 190px;
+  right: -190px;
+  top: 0px;
+  left:auto;
+}
+
+.navbar-fixed-top .container {
+  width:1100px;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+.contentWindow {
+  margin:           auto;
+  background:       white;
+  vertical-align:   middle;
+  padding:          10px;
+  max-width:        80%;
+}
+
+.dropdown-toggle {
+  cursor:           pointer;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu, ul.dropdown-menu:hover  {
+    display: block;    
+}
+
+ul.nav li.dropdown > ul.dropdown-menu {
+    display: none;    
+}
+
+ul.dropdown-menu {
+  margin-top: -2px;
+}
+
+.loginWindow {
+  width:            500px;
+  height:           150px;
+  margin-top:       200px;
+}
+
+.logo {
+  height:           78px;
+  width:            85px;
+  background:       url(http://kes.edu.kw/wp-content/uploads/2010/03/logoname-trans.png);
+  margin:           auto;
+}
+
+.loginWindow div {
+  text-align:center;
+}
+
+.fromTop {
+  margin-top: 60px;
+}
+
+.corners {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+table {
+  margin:auto;
+}
+
+table tr th {
+  width:150px;
+  text-align:left;
+}
+
+textarea {
+  width:990px;
+  height: 500px;
+}
+
+.imageContainer {
+  position:relative;
+  float:left;
+  height:200px;
+  width:200px;
+  padding: 2px;
+}
+
+.imageContainer img {
+  max-width: 200px;
+  max-height: 200px;
+  margin:auto;
+}
+
+.aimageContainer .removeImage {
+  width: 10px;
+  height: 10px;
+  opacity: .2;
+  transition: all 300ms
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: url(/cms/images/dg_ie7_bad.png);
+  display:block;
+  z-index: 100; 
+}

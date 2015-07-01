@@ -1,0 +1,133 @@
+html, head, body {
+  margin:0px;
+  color: gray;
+  padding: 0px;
+  background: rgb(255,255,255);  
+}
+
+section#header {
+  background: rgb(37,37,37);
+  height: 80px;
+  width:100%;
+  z-index: 1000;
+}
+
+section#header div#logo {
+  width: 150px;
+  height: 133px;
+  background: url(/images/vline.png);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000; 
+  vertical-align: middle;
+  text-align:center; 
+}
+
+section#header div#logo div.language {
+  margin-top: 35px;
+}
+
+section#header div#logo div.language a.language {
+  font-size: 10px;
+  color: rgb(170,170,170);
+  text-decoration:none;
+}
+
+section#header div#logo div.language a.language.active {
+  text-decoration: underline;
+}
+
+section#header div#mainMenu a {
+  display: block;
+  height: 55px;
+  float:right;
+  color:white;
+  padding: 10px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  font-family: Arial, Veradana;
+  font-size: 24px;
+  text-decoration:none;
+  margin:0px;
+  z-index: 1000;  
+}
+
+section#header div#mainMenu {
+  margin-right: 50px;
+}
+
+section#header div#mainMenu a.active {
+  background: url(/images/menuSelected.png) no-repeat center bottom;
+}
+
+section#header div.subMenu {
+  position:absolute;
+  top: 80px;
+  background: url(/images/line.png) no-repeat right;
+  right: 291px;
+  height: 40px;
+}
+
+section#header div.subMenu div.menuItems {
+  margin-right: 23px;
+  height: 40px;
+  border-bottom: 1px solid silver;
+}
+
+section#header div.subMenu div.menuItems a:last-child {
+  margin-right: 80px;
+}
+
+section#header div.subMenu div.menuItems a:first-child {
+  margin-left: 50px;
+}
+
+section#header div.subMenu div.menuItems a div {
+  position:absolute;
+  left: 46px;
+  top: 16px;
+}
+
+section#header div.subMenu div.menuItems a {
+  position: relative;
+  text-align:center;
+  display:block;
+  width: 100px;
+  float: left;
+  line-height: 40px;
+  text-decoration:none;
+  font-variant: small-caps;
+  color:gray;
+  font-size: 14px;
+}
+
+section#footer {
+  height: 120px;
+  border-top: 1px solid rgb(170,170,170);
+  bottom: 0px;
+  width:100%; 
+  z-index: 1000;
+  background: rgb(255,255,255);
+}
+
+section#footer div#logo {
+  background: url(/images/vline.png), white;
+  background-size: 100px 88px;
+  height: 88px;
+  width: 100px;  
+  margin:auto;
+  margin-top: -1px;
+}
+
+section#content {
+  padding-top: 100px;
+  margin-bottom: 50px;
+  z-index: 100;
+}
+
+section#content div.contentWindow {
+  width: 80%;
+  margin:auto;
+  z-index: 100;
+}
